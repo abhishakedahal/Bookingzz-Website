@@ -8,7 +8,7 @@
     <!-- Font Awesome icones CDN Link -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Sign Up</title>
+    <title>Login in to Bookingzz</title>
     <!-- Linking css code file -->
     <link rel="stylesheet" href="./css/logindesign.css">
 </head>
@@ -72,7 +72,13 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 
     if (!preg_match($pattern, $user_email)) {
+
+        
+
+
         echo "<script>
+
+        
             Swal.fire({
                icon: 'error',
                title: 'Oops...',
